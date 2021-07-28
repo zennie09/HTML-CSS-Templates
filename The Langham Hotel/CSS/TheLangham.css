@@ -1,0 +1,1671 @@
+body {
+
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+.Langham_club {
+    width: 1230px;
+    height: 3700px;
+    /*border-style: solid;
+        border-color: black; */
+    position: relative;
+    top: -50px;
+    left: 30px;
+    background-color: #e5e4e2;
+}
+
+.Langham_covid {
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    background-color: black;
+    top: -8px;
+    width: 1322px;
+    left: -10px;
+}
+
+.Langham_gallery {
+    /*border-style: solid;
+    border-color: black; */
+    height: 3010px;
+}
+
+.Langham_gift {
+    width: 1230px;
+    height: 1700px;
+    /*border-style: solid;
+    border-color: black; */
+    position: relative;
+    top: -50px;
+    left: 30px;
+    background-color: #e5e4e2;
+}
+
+.Langham_heading {
+    position: relative;
+    border-style: solid;
+    border-color: rgb(58, 49, 49);
+    height: 50px;
+    background-color: rgb(58, 49, 49);
+    top: -8px;
+    width: 1322px;
+    left: -10px;
+}
+
+.Langham_menu {
+    background-color: white;
+    color: black;
+    /*border-style: solid;
+    border-color: black;*/
+    height: 150px;
+    position: sticky;
+    z-index: 100;
+    top: -10px;
+    left: -8px;
+    width: 1320px;
+}
+
+.Langham_reservation {
+    position: relative;
+    left:1159.5px;
+    top:1px;
+    height:60px;
+    width:150px;
+    background-color:pink;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.Langham_book_now {
+    position: relative;
+    left: -10px;
+    top: -100px;
+    height: 60px;
+    width: 150px;
+    background-color: pink;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Langham_book_now1 {
+    position: relative;
+    left: 550px;
+    top: 500px;
+    height: 60px;
+    width: 150px;
+    background-color: pink;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Langham_overview {
+    width: 1230px;
+    height: 1930px;
+    /*border-style: solid;
+    border-color: black; */
+    position: relative;
+    top: -5px;
+    left: 30px;
+    background-color: white;
+}
+
+.Langham_overview1 {
+    width: 1230px;
+    height: 10px;
+    /*border-style: solid;
+    border-color: black;*/
+    position: relative;
+    top: -5px;
+    left: 30px;
+    background-color: white;
+}
+
+.Langham_overview_Container {
+    display: flex;
+    flex-flow: row;
+    height: 500px;
+    width: 1320px;
+    position: relative;
+    left: -8px;
+    top: -8px;
+}
+
+.Langham_image {
+    width: 1305px;
+    height: 600px;
+    background-image: url('../Image/Rooms/1516295489-vale-garden-residence.jpg');
+    background-repeat: no-repeat;
+    background-size: 1310px 650px;
+    position: relative;
+    top: -10px;
+    left: -6px;
+}
+
+.Langham_overview_image {
+    background-image: url('../Image/Rooms/1516295489-vale-garden-residence.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+}
+
+.Langham_overview_image::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0px;
+    z-index: -2;
+    transform-origin: bottom left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+}
+
+.Langham_rooms_image {
+    background-image: url('../Image/Rooms/listingitem.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+}
+
+.Langham_rooms_image::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0px;
+    z-index: -2;
+    transform-origin: bottom left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+}
+
+.Langham_dining_image {
+    background-image: url('../Image/Dining/salmon.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+}
+
+.Langham_dining_image::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0px;
+    z-index: -2;
+    transform-origin: bottom left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+}
+
+.Langham_gallery_image {
+    background-image: url('../Image/Gallery/tlchi-rooms-grand-room-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+}
+
+.Langham_gallery_image::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0px;
+    z-index: -2;
+    transform-origin: bottom left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+}
+
+.Langham_offer_image {
+    background-image: url('../Image/Offers/listingitem_3.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+}
+
+.Langham_offer_image::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0px;
+    z-index: -2;
+    transform-origin: bottom left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+}
+
+.Langham_wellness_image {
+    background-image: url('../Image/Wellness/listingitem.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    position: relative;
+    width: 1500px;
+    height: 500px;
+}
+
+.Langham_wellness_image::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0px;
+    z-index: -2;
+    transform-origin: bottom left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+}
+
+.Langham_overview_desc {
+    background-color: #e5e4e2;
+    color: black;
+    position: relative;
+    width: 100%;
+    padding: 10px 30px 10px 10px;
+    z-index: 1;
+}
+
+.Langham_overview_desc::before {
+    background-color: #e5e4e2;
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: top left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+}
+
+
+/* Dropdown button on hover & focus */
+.Langham_reservation:hover, .Langham_reservation:focus {
+    background-color: pink;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width:600px;
+    height:350px;
+    left:710px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
+
+
+.row {
+    /*border-style: solid;
+    border-color: purple;*/
+    height: 2465px;
+    width: 1225px;
+    position: relative;
+    left: 2px;
+    background-color: white;
+}
+
+  
+.btn {
+    width: 110px;
+    height: 50px;
+    position: relative;
+    left: 250px;
+    top:150px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_1 {
+    width: 110px;
+    height: 50px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.btn_2 {
+    width: 110px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_overview {
+    width: 110px;
+    height: 50px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 80px;
+
+}
+
+.dining_btn {
+    width: 110px;
+    height: 50px;
+    position: relative;
+    top: -25px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    left: 80px;
+}
+
+.Langham_footer {
+    width: 1308px;
+    height: 400px;
+    /*border-style: solid;
+    border-color: black; */
+    position: relative;
+    top: 50px;
+    left: -7px;
+    background-color: #e5e4e2;
+}
+
+.Langham_footer1 {
+    width: 1308px;
+    height: 400px;
+    /*border-style: solid;
+    border-color: black; */
+    position: relative;
+    top: 650px;
+    left: -7px;
+    background-color: #e5e4e2;
+}
+
+.Langham_footer2 {
+    width: 1308px;
+    height: 400px;
+    /*border-style: solid;
+    border-color: black; */
+    position: relative;
+    top: 10px;
+    left: -7px;
+    background-color: #e5e4e2;
+}
+
+.Langham_footer3 {
+    width: 1308px;
+    height: 400px;
+    /*border-style: solid;
+    border-color: black; */
+    position: relative;
+    top: 255px;
+    left: -7px;
+    background-color: #e5e4e2;
+}
+
+.Langham_footer4 {
+    width: 1308px;
+    height: 400px;
+    /*border-style: solid;
+    border-color: black; */
+    position: relative;
+    top: 1340px;
+    left: -7px;
+    background-color: #e5e4e2;
+}
+
+.Langham_contact_us {
+    /* border-style: solid;
+     border-color: black;*/
+    height: 1400px;
+    width: 1290px;
+    position: relative;
+    top: -10px;
+    background-color: #e5e4e2;
+}
+
+.Langham_contact_us_btn_1 {
+    position: relative;
+    top: 150px;
+    left: 600px;
+    width: 110px;
+    height: 50px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+.Langham_contact_us_btn_2 {
+
+    width: 110px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    left: 500px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+}
+
+#Langham_covid1 {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+    top: 10px;
+    background-color: rgb(32, 31, 31);
+}
+
+#Langham_heading1 {
+    position: relative;
+    left: 70px;
+}
+
+#Langham_heading_links {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 700px;
+}
+
+#Langham_heading_links1 {
+    position: relative;
+    left: -40px;
+}
+
+#Langham_heading_links2 {
+    position: relative;
+    left: -20px;
+}
+
+#Langham_heading_links3 {
+    position: relative;
+    left: 0px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#Langham_heading_links4 img {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 25%;
+}
+
+#Langham_Title {
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
+
+#Langham_Title1 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+#Langham_menu1 a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    position: relative;
+    top: 60px;
+    left: 220px;
+
+}
+
+#Langham_overview_desc1 {
+    /*border-style: solid;
+    border-color: red;*/
+    height: 300px;
+    position: relative;
+    top: -15px;
+}
+
+#Langham_overview_desc_title {
+    font-size: 30px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#Langham_overview_desc1_0 {
+    /*border-style: solid;
+            border-color: purple;*/
+    position: relative;
+    top: 10px;
+    left: 50px;
+    height: 263px;
+    width: 500px;
+    font-size: 20px;
+}
+
+#Langham_club1 {
+    background-color: #f8f8ff;
+    /*border-style: solid;
+    border-color: red;*/
+    height: 80px;
+    color: black;
+}
+
+#Langham_club1 a {
+    color: black;
+    position: relative;
+    top: 25px;
+    padding: 50px 20px;
+}
+
+#Langham_club1_1 {
+    position: relative;
+    left: 1000px;
+}
+
+#langham_rooms {
+    /*border-style: solid;
+    border-color: red;*/
+    height: 1250px;
+    width: 1225px;
+
+}
+
+#Langham_club_desc {
+    /* border-style: solid;
+     border-color: blue;*/
+    height: 500px;
+}
+
+#Langham_club_title {
+    font-size: 35px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+#Langham_club_privileges_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    left: 190px;
+}
+
+#Langham_club_desc1 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: -250px;
+    display: block;
+    width: 800px;
+    height: 200px;
+}
+
+#Langham_club_desc2 {
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    right: -20px;
+    display: block;
+    width: 800px;
+    height: 200px;
+}
+
+#Langham_club_privileges {
+    /*border-style: solid;
+     border-color: red;*/
+    height: 350px;
+    position: relative;
+    top: 100px;
+}
+
+#Langham_club_privileges_image {
+    /*border-style: solid;
+     border-color: black;*/
+    height: 345px;
+    width: 606px;
+    position: relative;
+    left: 50px;
+    background-image: url('../Image/tlchi-overview-club-lounge-no-butler-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+}
+
+#Langham_club_privileges_desc {
+    /*border-style: solid;
+     border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 653px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_club_ambassador_services {
+    /*border-style: solid;
+     border-color: blue;*/
+    height: 350px;
+    position: relative;
+    top: 150px;
+}
+
+#Langham_club_ambassador_services_image {
+    /*border-style: solid;
+     border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/tlchi-overview-the-langham-clubs-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 700px;
+}
+
+#Langham_club_ambassador_services_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: -300px;
+}
+
+#Langham_club_ambassador_services_desc {
+    /*border-style: solid;
+     border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 55px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_club_food_beverage {
+    /*border-style: solid;
+     border-color: red;*/
+    height: 350px;
+    position: relative;
+    top: 200px;
+}
+
+#Langham_club_food_beverage_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: 245px;
+}
+
+#Langham_club_food_beverage_image {
+    /*border-style: solid;
+     border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/tlchi-dining-clublounge-diningarea-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 50px;
+}
+
+#Langham_club_food_beverage_desc {
+    /*border-style: solid;
+     border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 653px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_club_healthy_relaxed_services {
+    /*border-style: solid;
+     border-color: blue;*/
+    height: 350px;
+    position: relative;
+    top: 250px;
+}
+
+#Langham_club_healthy_relaxed_services_image {
+    /*border-style: solid;
+     border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/tlchi-fitnes-yoga-1680x945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 700px;
+}
+
+#Langham_club_healthy_relaxed_services_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: -300px;
+}
+
+#Langham_club_healthy_relaxed_services_desc {
+    /*border-style: solid;
+     border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 15px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_club_boardroom_access_services {
+    /*border-style: solid;
+     border-color: red;*/
+    height: 350px;
+    position: relative;
+    top: 300px;
+}
+
+#Langham_club_boardroom_access_services_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: 175px;
+}
+
+#Langham_club_boardroom_access_services_image {
+    /*border-style: solid;
+     border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/tlchi-meeting-mood-shot-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 50px;
+}
+
+#Langham_club_boardroom_access_services_desc {
+    /*border-style: solid;
+     border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 653px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+
+#Langham_club_additional_privileges_services {
+    /*border-style: solid;
+     border-color: blue;*/
+    height: 350px;
+    position: relative;
+    top: 350px;
+}
+
+#Langham_club_additional_privileges_services_image {
+    /*border-style: solid;
+     border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/tlchi-ground-floor-lobby-blur-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 700px;
+}
+
+#Langham_club_additional_privileges_services_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: -440px;
+}
+
+#Langham_club_additional_privileges_services_desc {
+    /*border-style: solid;
+     border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 15px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_club_how_to_book_services {
+    /*border-style: solid;
+     border-color: red;*/
+    height: 350px;
+    position: relative;
+    top: 400px;
+}
+
+#Langham_club_how_to_book_services_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: 130px;
+}
+
+#Langham_club_how_to_book_services_image {
+    /* border-style: solid;
+     border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/tlchi-rooms-classic-river-view-suite-master-bedroom-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 50px;
+}
+
+#Langham_club_how_to_book_services_desc {
+    /*border-style: solid;
+     border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 653px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_club_how_to_book_services_bullets {
+    position: relative;
+    left: 700px;
+    top: -550px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#Langham_gallery_text {
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    position: relative;
+    left: 300px;
+    top: -250px;
+}
+
+#Langham_gallery_text1 {
+    color: white;
+    font-size: 25px;
+    width: 250px;
+    position: relative;
+    left: 140px;
+    top: -140px;
+}
+
+#Langham_gallery_text2 {
+    color: white;
+    font-size: 25px;
+    width: 250px;
+    position: relative;
+    left: 220px;
+    top: -250px;
+}
+
+
+#Langham_gallery_text3 {
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    position: relative;
+    left: 120px;
+    top: -130px;
+}
+
+
+#Langham_gallery_text4 {
+    color: white;
+    font-size: 25px;
+    width: 250px;
+    position: relative;
+    left: 350px;
+    top: -280px;
+}
+
+
+#Langham_gallery1 {
+    /*border-style: solid;
+    border-color: red; */
+    height: 500px;
+    width: 790px;
+}
+
+#Langham_gallery2 {
+    /* border-style: solid;
+    border-color: blue; */
+    height: 500px;
+    width: 480px;
+    position: relative;
+    top: -500px;
+    left: 800px;
+}
+
+#Langham_gallery3 {
+    /* border-style: solid;
+    border-color: rgb(34, 105, 122); */
+    height: 500px;
+    width: 1284px;
+    position: relative;
+    top: -500px;
+    left: -1px;
+}
+
+#Langham_gallery4 {
+    /* border-style: solid;
+    border-color: rgb(34, 122, 53); */
+    height: 500px;
+    width: 1285px;
+    position: relative;
+    top: -496px;
+    left: -1px;
+}
+
+#Langham_gallery5 {
+    /* border-style: solid;
+    border-color: rgb(38, 19, 124); */
+    height: 500px;
+    width: 1285px;
+    position: relative;
+    top: -490px;
+    left: -1px;
+}
+
+#Langham_gallery6 {
+    /*border-style: solid;
+    border-color: rgb(34, 105, 122); */
+    height: 500px;
+    width: 1284px;
+    position: relative;
+    top: -485px;
+    left: -1px;
+}
+
+#Langham_gallery7 {
+    /*border-style: solid;
+    border-color: rgb(60, 34, 122); */
+    height: 500px;
+    width: 1285px;
+    position: relative;
+    top: -480px;
+    left: -1px;
+}
+
+#Langham_gallery_1 {
+    height: 487px;
+    width: 790px;
+}
+
+#Langham_gallery_2 {
+    height: 242px;
+    width: 489px;
+}
+
+#Langham_gallery_3 {
+    height: 495px;
+    width: 635px;
+}
+
+#Langham_gallery_4 {
+    height: 240px;
+    width: 474px;
+}
+
+
+
+#Langham_gallery2_0 {
+    /*border-style: solid;
+    border-color: brown; */
+    height: 150px;
+    width: 474px;
+    position: relative;
+    top: -3px;
+    left: 0px;
+}
+
+#Langham_gallery2_1 {
+    /*border-style: solid;
+    border-color: purple; */
+    height: 145px;
+    width: 474px;
+    position: relative;
+    top: 95px;
+    left: 0px;
+}
+
+#Langham_gallery3_0 {
+    /* border-style: solid;
+    border-color: brown; */
+    height: 495px;
+    width: 635px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+
+#Langham_gallery3_1 {
+    /*  border-style: solid;
+    border-color: purple; */
+    height: 495px;
+    width: 635px;
+    position: relative;
+    top: -492px;
+    left: 647px;
+}
+
+#Langham_gallery4_0 {
+    /*border-style: solid;
+    border-color: brown; */
+    height: 240px;
+    width: 474px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#Langham_gallery4_1 {
+    /*border-style: solid;
+    border-color: purple; */
+    height: 240px;
+    width: 474px;
+    position: relative;
+    top: 8px;
+    left: 0px;
+}
+
+#Langham_gallery4_2 {
+    /* border-style: solid;
+    border-color: black; */
+    height: 490px;
+    width: 789px;
+    position: relative;
+    top: -480px;
+    left: 490px;
+}
+
+#Langham_gallery5_0 {
+    /*border-style: solid;
+    border-color: brown; */
+    height: 240px;
+    width: 474px;
+    position: relative;
+    top: 0px;
+    left: 805px;
+}
+
+#Langham_gallery5_1 {
+    /* border-style: solid;
+    border-color: purple; */
+    height: 240px;
+    width: 474px;
+    position: relative;
+    top: 10px;
+    left: 805px;
+}
+
+#Langham_gallery5_2 {
+    /*  border-style: solid;
+    border-color: black; */
+    height: 495px;
+    width: 789px;
+    position: relative;
+    top: -480px;
+    left: 0px;
+}
+
+#Langham_gifts {
+    /*border-style: solid;
+    border-color: red;*/
+    height: 350px;
+    position: relative;
+    top: -200px;
+}
+
+#Langham_gifts_image {
+    /*border-style: solid;
+    border-color: black;*/
+    height: 345px;
+    width: 606px;
+    position: relative;
+    left: 50px;
+    background-image: url('../Image/Gifts/tlchi-lobby-flavours-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+}
+
+#Langham_gifts_desc {
+    /*border-style: solid;
+    border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 653px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_gifts1 {
+    /*border-style: solid;
+    border-color: blue;*/
+    height: 350px;
+    position: relative;
+    top: -100px;
+}
+
+#Langham_gifts_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    left: 190px;
+}
+
+#Langham_gifts1_image {
+    /*border-style: solid;
+    border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/Gifts/tlchi-offer-rooms-bathtube-1680x945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 700px;
+}
+
+#Langham_gifts1_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: -300px;
+}
+
+#Langham_gifts1_desc {
+    /*border-style: solid;
+    border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 55px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+#Langham_gifts2 {
+    /*border-style: solid;
+    border-color: red;*/
+    height: 350px;
+    position: relative;
+    top: 0px;
+}
+
+#Langham_gifts2_title {
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    top: -340px;
+    left: 245px;
+}
+
+#Langham_gifts2_image {
+    /*border-style: solid;
+    border-color: black;*/
+    height: 345px;
+    width: 606px;
+    background-image: url('../Image/Gifts/tlchi-offer-dining-pinkclub-1680-945.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+    position: relative;
+    left: 50px;
+}
+
+#Langham_gifts2_desc {
+    /*border-style: solid;
+    border-color: purple;*/
+    position: relative;
+    top: -330px;
+    left: 653px;
+    height: 263px;
+    width: 550px;
+    font-size: 20px;
+}
+
+
+#langham_overview {
+    /*border-style: solid;
+    border-color: red;*/
+    height: 2000px;
+    width: 1225px;
+
+}
+
+#col {
+    /*border-style: solid;
+    border-color:blue;*/
+    height: 600px;
+    width: 370px;
+    position: relative;
+    left: 8px;
+    top: 7px;
+    background-color: #e5e4e2;
+    padding: 5px;
+}
+
+#col1 {
+    /*border-style: solid;
+    border-color:blue;*/
+    height: 600px;
+    width: 370px;
+    position: relative;
+    left: 423px;
+    top: -600px;
+    background-color: #e5e4e2;
+}
+
+#col2 {
+    /*border-style: solid;
+    border-color:blue;*/
+    height: 600px;
+    width: 370px;
+    position: relative;
+    left: 840px;
+    top: -1205px;
+    background-color: #e5e4e2;
+}
+
+#row1 {
+    /*border-style: solid;
+    border-color:red;*/
+    height: 600px;
+    width: 370px;
+    position: relative;
+    left: -3px;
+    top: -3px;
+    background-color: #e5e4e2;
+
+}
+
+#image img {
+    width: 370px;
+}
+
+#image_title a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    color: gray;
+}
+
+#image_title1 a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    color: gray;
+}
+
+#image_title2 a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 65px;
+    color: gray;
+}
+
+#image_title3 a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    color: gray;
+}
+
+#image_overview_title a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 75px;
+    color: gray;
+}
+
+#image_overview_title1 a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 120px;
+    color: gray;
+}
+
+#image_overview_title2 a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+    color: gray;
+}
+
+#image_overview_title3 a {
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    color: gray;
+}
+
+#image_overview_desc {
+    /* border-style: solid;
+        border-color: black;*/
+    position: relative;
+    top: 30px;
+    left: 40px;
+    text-align: center;
+    width: 300px;
+    height: 180px;
+    line-height: 30px;
+    font-size: 19.5px;
+}
+
+#image_desc {
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    text-align: center;
+    width: 230px;
+    height: 180px;
+    line-height: 30px;
+    font-size: 19.5px;
+}
+
+#image_desc1 {
+    /*border-style: solid;
+        border-color: blue;*/
+    width: 350px;
+    position: relative;
+    left: 65px;
+    top: 35px;
+    font-style: italic;
+}
+
+#image_button {
+    position: relative;
+    left: 50px;
+    top: 80px;
+}
+
+#Langham_footer_address {
+    position: relative;
+    left: -120px;
+}
+
+#Langham_footer_contact {
+    position: relative;
+    left: 200px;
+    top: 50px;
+    font-size: 20px;
+}
+
+#Langham_footer_number {
+    position: relative;
+    left: 5px;
+}
+
+#Langham_footer_number a {
+    color: black;
+    position: relative;
+    left: 0px;
+}
+
+#Langham_footer_email {
+    position: relative;
+    left: 120px;
+}
+
+#Langham_footer_email a {
+    color: black;
+    position: relative;
+    left: 5px;
+}
+
+#Langham_footer_follow_us {
+    position: relative;
+    top: 100px;
+}
+
+#Langham_footer_follow_us1 {
+    position: relative;
+    left: 550px;
+    font-size: 30px;
+}
+
+#Langham_footer_follow_us_links {
+    position: relative;
+    left: 450px;
+    top: 20px;
+    padding: 25px 50px 75px;
+}
+
+#Langham_contact_us_header {
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 40px;
+    color: gray;
+}
+
+#Langham_contact_us_header1 {
+    position: relative;
+    top: 125px;
+    left: 300px;
+    font-size: 25px;
+    color: gray;
+}
+
+#Langham_contact_us_lbl {
+    position: relative;
+    width: 150px;
+    top: 155px;
+    left: 100px;
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding: 20px;
+    /*border-style: solid;
+                border-color: black;*/
+}
+
+
+#Langham_contact_us_txtbox {
+    position: relative;
+    width: 850px;
+    top: 90px;
+    left: 400px;
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+
+
+  
+  #Langham_reservation_dropdowns{
+      display: inline-flex;
+      position: relative;
+      top:30px;
+      left:150px;
+  }
+  
+  #Langham_reservation_dropdown1{
+      padding:5px;
+      position: relative;
+      left:-130px;
+      width:180px;
+      height:50px;
+      border-width: 0px;
+      border: none;
+      outline: none;
+      
+  }
+  
+  #Langham_reservation_dropdown2{
+      padding:5px;
+      position: relative;
+      left:-120px;
+      width:180px;
+      height:50px;
+      border-width: 0px;
+      border: none;
+      outline: none;
+  }
+  
+  
+  #Langham_reservation_dropdown3{
+      padding:5px;
+      position: relative;
+      left:-110px;
+      width:180px;
+      height:50px;
+      border-width: 0px;
+      border: none;
+      outline: none;
+  }
+  
+  #Langham_reservation_cals{
+      position: relative;
+      top:100px;
+      left:150px;
+  }
+  
+  #Langham_reservation_startdate{
+      padding:5px;
+      position: relative;
+      left:-70px;
+      width:170px;
+      height:50px;
+   
+  }
+  
+  #Langham_reservation_enddate{
+      padding:5px;
+      position: relative;
+      left:-20px;
+      width:170px;
+      height:50px;
+   
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: blue;
+}
