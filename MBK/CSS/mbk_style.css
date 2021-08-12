@@ -1,0 +1,916 @@
+
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}
+
+/*Start Main Page*/
+
+.mbk_header{
+  /* border-color: black;
+   border-style: solid;*/
+   background-color: gray;
+   position: relative;
+   left:-8px;
+   width:1320px;
+ }
+ 
+.mbk_slideshow{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:500px;
+  position: relative;
+  top:50px;
+  width: auto;
+  margin: -10px;
+}
+
+/*Slide show*/
+#slide{
+	width:96%;
+	}
+	
+* {
+	box-sizing: border-box
+}
+
+.mySlides {
+	display: none
+}
+
+
+/* Next & previous buttons */
+.prev{
+	cursor: pointer;
+	position: absolute;
+  left:610px;
+  top:503.5px;
+	color: #494B55;
+	font-weight: bold;
+	transition: 0.6s ease;
+}
+
+/* Position the "next button" to the right */
+.next {
+  cursor: pointer;
+	position: absolute;
+  left:690px;
+  top:503.5px;
+	color: #494B55;
+	font-weight: bold;
+	transition: 0.6s ease;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 40px;
+	padding: 8px 12px;
+	position: absolute;
+  left:50px;
+  top:180px;
+	bottom: 8px;
+	width: 100%;
+}
+
+.text1 {
+	color: #f2f2f2;
+	font-size: 40px;
+	padding: 8px 12px;
+	position: absolute;
+  left:800px;
+  top:180px;
+	bottom: 8px;
+	width: 100%;
+}
+
+.text2 {
+	color: black;
+	font-size: 40px;
+	padding: 8px 12px;
+	position: absolute;
+  left:50px;
+  top:180px;
+	bottom: 8px;
+	width: 100%;
+}
+
+.cloths_text{
+  font-size: 20px;
+  position: relative;
+  top:10px;
+  left:60px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  top:70px;
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #494B55;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.pics
+{
+    width:1310px;
+    height: 495px;
+}
+
+
+    /*BUTTONS*/
+.mbk_slideshow_btn{
+    background-color:pink;
+    height:50px;
+    position: absolute;
+    top:250px;
+    left:60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.mbk_slideshow_btn1{
+  background-color:blueviolet;
+  height:50px;
+  position: absolute;
+  top:250px;
+  left:815px;
+  border-radius: 5px;
+  border: none;
+}
+
+.mbk_clothing{
+  /* border-color: black;
+   border-style: solid;*/
+   position: relative;
+   top:100px;
+   height:445px;
+   left:-7px;
+   width:1310px;
+ }
+ 
+ .mbk_clothing1{
+   /*border-color: black;
+   border-style: solid;*/
+   position: relative;
+   top:150px;
+   height:445px;
+   left:-7px;
+   width:1310px;
+ }
+ 
+ .mbk_desc{
+   /*border-color: rgb(223, 59, 59);
+   border-style: solid;*/
+   position: relative;
+   top:200px;
+   left:-7px;
+   width:1310px;
+   height:1000px;
+ }
+ 
+
+ #mbk_clothing_header{
+  font-size: 35px;
+}
+
+#mbk_desc1{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:280px;
+}
+
+#mbk_desc2{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:310px;
+  position: relative;
+  top:30px;
+}
+
+#mbk_desc3{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:310px;
+  position: relative;
+  top:60px;
+}
+
+
+#mbk_desc_p{
+  /*border-color: black;
+  border-style: solid;*/
+  height:195px;
+  width: 550px;
+  font-size: 25px;
+  position: relative;
+  top:35px;
+}
+
+#mbk_desc_p1{
+  /*border-color: black;
+  border-style: solid;*/
+  height:195px;
+  width: 550px;
+  font-size: 25px;
+  position: relative;
+  top:35px;
+  left:745px;
+}
+
+#mbk_desc_info{
+  /*border-color: black;
+  border-style: solid;*/
+  height:305px;
+  width: 250px;
+  font-size: 23px;
+  position: relative;
+  top:0px;
+  left:200px;
+}
+
+#mbk_desc_img{
+  /*border-color: red;
+  border-style: solid;*/
+  height:270px;
+  width: 700px;
+  position: absolute;
+  left:600px;
+  top:5px;
+}
+
+#mbk_desc_img1{
+  /*border-color: red;
+  border-style: solid;*/
+  height:270px;
+  width: 700px;
+  position: absolute;
+  left:0px;
+  top:5px;
+}
+
+#mbk_desc_img2{
+  /*border-color: red;
+  border-style: solid;*/
+  height:305px;
+  width: 700px;
+  position: absolute;
+  left:600px;
+  top:0px;
+}
+
+#mbk_desc_pic{
+  height:265px;
+  width: 695px;
+}
+
+#mbk_desc_pic1{
+  height:300px;
+  width: 695px;
+}
+
+#mbk_cloths{
+  /*border-color: palegreen;
+  border-style: solid;*/
+  height:400px;
+}
+
+#mbk_cloths_1{
+  /*border-color: red;
+  border-style: solid;*/
+  width:250px;
+  height:352px
+}
+
+#mbk_cloths_2{
+ /* border-color: red;
+  border-style: solid;*/
+  width:250px;
+  height:352px;
+  position: absolute;
+  left:350px;
+  bottom:45px;
+}
+
+#mbk_cloths_3{
+  /*border-color: red;
+  border-style: solid;*/
+  width:250px;
+  height:352px;
+  position: absolute;
+  left:700px;
+  bottom:45px;
+}
+
+#mbk_cloths_4{
+  /*border-color: red;
+  border-style: solid;*/
+  width:250px;
+  height:352px;
+  position: absolute;
+  left:1050px;
+  bottom:45px;
+}
+
+#cloths{
+  width:245px;
+  height:345px;
+}
+
+/*Eng Main Page*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Start MBK Footer*/
+.mbk_info{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:50px;
+  position: relative;
+  top:200px;
+  left:-7px;
+  width:1310px;
+  height:200px;
+}
+
+.mbk_info_1{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:50px;
+  position: relative;
+  top:150px;
+  left:-7px;
+  width:1310px;
+  height:200px;
+}
+
+#mbk_links_header{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+#mbk_links{
+ display: list-item;
+ width:70px;
+ position: relative;
+ top:-20px;
+ line-height: 1.6;
+}
+
+#mbk_links a, #accessories_link{
+ text-decoration: none;
+ color: black;
+}
+
+#mbk_news{
+/* border-color: red;
+ border-style: solid;*/
+ position: relative;
+ left:250px;
+ top:-165px;
+ width:250px;
+ line-height: 2.1;
+}
+
+#mbk_follow_us{
+/* border-color: red;
+ border-style: solid;*/
+ position: relative;
+ left:635px;
+ top:-350px;
+ width:280px;
+ height: 190px;
+ line-height: 2.1;
+}
+
+#mbk_newletter{
+ /*border-color: red;
+ border-style: solid;*/
+ position: relative;
+ left:1025px;
+ top:-540px;
+ width:280px;
+ height: 190px;
+ line-height: 2;
+}
+
+#mbk_newletter_txtbox{
+ border-radius: 5px;
+ position: relative;
+ top:0px;
+ left:0px;
+ height:35px;
+ width: 275px;
+}
+
+#mbk_newletter_btn{
+ border-radius: 5px;
+ position: relative;
+ top:10px;
+ height:35px;
+}
+
+ /*End MBK Footer*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start MBK Login, Forget Password and Create Account*/
+
+.Mbk_login{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:430px;
+  width:500px;
+  position: relative;
+  top:50px;
+  left:50px;
+}
+
+.Mbk_forget_password{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:240px;
+  width:500px;
+  position: relative;
+  top:50px;
+  left:50px;
+}
+
+.Mbk_sign_in_btn{
+  background-color:red;
+  height:50px;
+  width: 100px;
+  position: absolute;
+  top:300px;
+  left:0px;
+  border-radius: 5px;
+  border: none;
+}
+
+.Mbk_sign_in_btn1{
+  background-color:red;
+  height:50px;
+  width: 100px;
+  position: absolute;
+  top:150px;
+  left:0px;
+  border-radius: 3px;
+  border: none;
+}
+
+.Mbk_create_btn{
+  background-color:red;
+  height:50px;
+  width: 100px;
+  position: absolute;
+  top:410px;
+  left:0px;
+  border-radius: 3px;
+  border: none;
+}
+
+#Mbk_login_title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#Mbk_error_msg{
+  position: relative;
+  top:20px;
+  color: red;
+  background-color: rgb(223, 219, 219);
+  border-color: red;
+  border-style:solid;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_error_msg1{
+  position: relative;
+  top:20px;
+  color: red;
+  background-color: rgb(223, 219, 219);
+  border-color: red;
+  border-style:solid;
+  width:450px;
+  height:50px;
+  border-radius: 3px;
+}
+
+#Mbk_error_msg li, #Mbk_error_msg1 li{
+  position: relative;
+  top:-10px; 
+}
+
+#Mbk_email_txtbox{
+  position: relative;
+  top:40px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_password_txtbox{
+  position: relative;
+  top:80px;
+  right:0px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_ln_txtbox{
+  position: relative;
+  top:240px;
+  right:0px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_forget_password{
+  position: relative;
+  top:100px;
+  text-decoration: none;
+}
+
+#Mbk_forget_password a, #Mbk_create_account a, #Mbk_create_account1 a {
+ color: red;
+  text-decoration: none;
+}
+
+#Mbk_create_account{
+  position: relative;
+  top:180px;
+  text-decoration: none;
+}
+
+#Mbk_create_account1{
+  position: relative;
+  top:80px;
+  left:100px;
+  text-decoration: none;
+}
+
+#mbk_return{
+  position: relative;
+  top:40px;
+  left:-100px;
+}
+
+#mbk_return1{
+  position: relative;
+  top:160px;
+  left:-100px;
+}
+
+#Mbk_forget_password_lbl{
+  position: relative;
+  top:20px;
+  font-size: 18px;
+}
+
+/*End MBK Login, Forget Password and Create Account*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start MBK Meun*/
+
+.mbk_meun{
+  /*border-color: red;
+  border-style: solid;*/
+  position: relative;
+  left:-8px;
+  width:1320px;
+  height:150px;
+}
+
+.meun_dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.meun_dropdown_btn {
+
+  border: none;
+  cursor: pointer;
+}
+
+.meun_dropdown_content{
+  display: none;
+  position: absolute;
+  top:50px;
+  left:100px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.meun_dropdown_content1{
+  display: none;
+  position: absolute;
+  top:50px;
+  left:170px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.meun_dropdown_content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.meun_dropdown_content a:hover {background-color: #f1f1f1}
+
+.meun_dropdown:hover .meun_dropdown_content {
+  display: block;
+}
+
+.meun_dropdown_content1 a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.meun_dropdown_content1 a:hover {background-color: #f1f1f1}
+
+.meun_dropdown:hover .meun_dropdown_content1 {
+  display: block;
+}
+
+#mbk_header_label{
+  position: relative;
+  left:25px;
+  top:12px;
+  /*border-color: white;
+  border-style: solid;*/
+  width:300px;
+  color:white;
+}
+
+#mbk_header_account
+{
+  position: relative;
+  right:-800px;
+  top:-12px;
+ /* border-color: white;
+  border-style: solid;*/
+  width:500px;
+  color:white;
+}
+
+#mbk_header_account a
+{
+  text-decoration: none;
+  color:white;
+}
+
+#mbk_header_login{
+  position: relative;
+  left:0px;
+}
+
+#mbk_header_login1{
+  position: relative;
+  left:10px;
+}
+
+#mbk_header_login2{
+  position: relative;
+  left:20px;
+}
+
+#mbk_header_login3{
+  position: relative;
+  left:50px;
+  top:5px;
+}
+
+#mbk_header_login4{
+  position: relative;
+  left:50px;
+  top:0px;
+}
+
+#txtsearch{
+  position: relative;
+  left:80px;
+  top:-2.5px;
+  border-radius: 3px;
+}
+
+#mbk_meun_hr{
+  position: relative;
+  top:50px;
+  width:1200px;
+}
+
+#mbk_meun_hr1{
+  position: relative;
+  top:170px;
+  width:1200px;
+}
+
+#mbk_meun_hr2{
+  position: relative;
+  top:130px;
+  width:1200px;
+}
+
+#mbk_meun1{
+   /*border-color: black;
+  border-style: solid;*/
+  position: relative;
+  left:750px;
+  width:550px;
+  height: 50px; 
+  top:-20px;
+  text-decoration: none;
+  
+}
+
+#mbk_meun_logo{
+  position: relative;
+  left:40px;
+  top:40px;
+}
+
+#mbk_meun_links{
+  position: relative;
+  left:10px;
+  top:15px;
+  text-decoration: none;
+  color:black;
+}
+
+#mbk_meun_links_1{
+  position: relative;
+  left:110px;
+  top:15px;
+  text-decoration: none;
+  color:black;
+}
+
+#mbk_meun_links_2{
+  position: relative;
+  left:200px;
+  top:15px;
+  text-decoration: none;
+  color:black;
+}
+
+#mbk_meun_links_3{
+  position: relative;
+  left:280px;
+  top:15px;
+  text-decoration: none;
+  color:black;
+}
+
+/*End MBK Meun*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start MBK Accessories*/
+.Mbk_Accessories{
+  border-color: purple;
+  border-style: solid;
+  height:2000px;
+  width:1300px;
+  position: relative;
+  top:70px;
+}
+
+
+#Mbk_Accessories_nav{
+  font-size: 15px;
+  position: relative;
+  top:10px;
+  left:25px;
+}
+
+
+#Mbk_Accessories_Title{
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top:-20px;
+  left:550px;
+}
+
+#accessories_img{
+  width: 230px;
+  height: 250px;
+}
+
+#accessories_desc{
+  position: relative;
+  right:5px;
+}
+
+#accessories_item{
+  border-color: black;
+  border-style: solid;
+  width:150px;
+  position: relative;
+  right:0px;
+}
+
+#accessories_link:hover{
+  opacity: 0.7;
+}
+
+#circle {
+  background: #f00;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  left:170px;
+  top:-420px;
+}
+
+#sales_lbl{
+  position: relative;
+  font-weight: bold;
+  font-size:18px;
+  color:white;
+  position: relative;
+  top:25px;
+  left:10px;
+}
+  
+/*End MBK Accessories*/
+
+
+
+
+
+a:hover , #mbk_links a:hover{
+  color: red;
+  
+}
+
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px 2em;
+
+  
+}
+
+.box :first-child {
+    align-self: center;
+}
+
+
+
+
+
+
+
