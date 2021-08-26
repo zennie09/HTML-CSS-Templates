@@ -9,7 +9,7 @@
 <body>
 <div class="db_content">
     <div class="wrapper">
-        <!--<header>-->
+        <!--START DG MENU AND BANNER-->
         <div class="gb_section1">
             <div class="dg_banner">
                 <img src="../DigitGo/Image/Graphic-Designing-in-Saudi-Arabia-by-SolutionDots-System.jpg"
@@ -25,9 +25,10 @@
             <div class="dg_banner1">
                 <img src="../DigitGo/Image/1519801405383.jpg" id="dg_banner_img">
                 <div class="db_banner_txtbox_1 db_banner_txtbox2">
-                    <h1>WE BULID BRANDS</h1>
+                    <h1>WE BUILD BRANDS</h1>
                     <span></span>
-                    <p>Take your company from the unknown to known. Go Digita. Go Global.</p>
+                    <p>Take your company from the unknown to known.</p>
+                    <p> Go Digita. Go Global.</p>
                     <button>OUR WORK</button>
                 </div>
             </div>
@@ -37,7 +38,8 @@
                 <div class="db_banner_txtbox db_banner_txtbox3">
                     <h1>WE KNOW SOCIAL</h1>
                     <span></span>
-                    <p>We help our clients win with digtal solutions that engage and convert.</p>
+                    <p>We help our clients win with digtal solutions</p>
+                    <p> that engage and convert.</p>
                     <button>OUR WORK</button>
                 </div>
             </div>
@@ -47,7 +49,8 @@
                 <div class="db_banner_txtbox_1 db_banner_txtbox4">
                     <h1>WE ANALYZE YOUR BUSINESS FROM EVERY DIRECTION</h1>
                     <span></span>
-                    <p>We help our clients with the best possible solutions for your business.</p>
+                    <p>We help our clients with the best </p>
+                    <p>possible solutions for your business.</p>
                     <button>OUR WORK</button>
                 </div>
             </div>
@@ -67,9 +70,10 @@
                 </div>
             </nav>
         </div>
-        <!--</header>-->
+        <!--END DG MENU AND BANNER-->
 
 
+        <!--START DG WHAT WE DO-->
         <div class="content">
             <div class="db_we_do">
                 <h1>WHAT WE DO</h1>
@@ -84,8 +88,9 @@
                             <img src="../DigitGo/Image/pic1.jpg" id="image1">
                         </div>
                         <div id="box_title1">Digital Marketing</div>
-                        <div id="box_desc">TeamDigita offers winning digital solutions, inclusive of digital media
-                            marketing, strategy and content creation, and online advertising.</div>
+                        <div id="box_desc">TeamDigita offers winning digital solutions,</div>
+                        <div id="box_desc">inclusive of digital media marketing, strategy</div>
+                        <div id="box_desc">and content creation, and online advertising.</div>
                     </div>
                 </div>
 
@@ -96,8 +101,9 @@
                                 id="image">
                         </div>
                         <div id="box_title">Graphic Design</div>
-                        <div id="box_desc1">With 10 years of design experience both as ideators and executors of
-                            ground-breaking design concepts.</div>
+                        <div id="box_desc1">With <b>10</b> years of design experience both </div>
+                        <div id="box_desc1">as ideators and executors of ground-breaking</div>
+                        <div id="box_desc1">design concepts.</div>
                     </div>
                 </div>
 
@@ -107,7 +113,8 @@
                             <img src="../DigitGo/Image/web-development.jpg" id="image">
                         </div>
                         <div id="box_title">Web Development</div>
-                        <div id="box_desc1">We conceptualize, wire frame, and design modern websites.</div>
+                        <div id="box_desc1">We conceptualize, wire frame, </div>
+                        <div id="box_desc1">and design modern websites.</div>
 
                     </div>
                 </div>
@@ -118,16 +125,17 @@
                             <img src="../DigitGo/Image/featured-images-60ec0df4948ae-sej-1520x800.png" id="image">
                         </div>
                         <div id="box_title">Content Creation</div>
-                        <div id="box_desc1">We have over 20 years experience creating rich and engaging visuals that
-                            help
-                            perfectly communicate your message.</div>
+                        <div id="box_desc1">We have over <b>20 years</b> experience</div>
+                        <div id="box_desc1">creating rich and engaging visuals that</div>
+                        <div id="box_desc1">help perfectly communicate your message.</div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--END DG WHAT WE DO-->
 
 
-
+        <!--START DG OUR WORK SLIDER-->
         <section id="dg_ourwork_slider">
             <input type="radio" name="dg_ourwork_slider" id="s1">
             <input type="radio" name="dg_ourwork_slider" id="s2">
@@ -163,6 +171,7 @@
             </label>
         </section>
 
+        <!--START DG COUNTER-->
         <div class="container">
 
             <div class="counter-container">
@@ -186,9 +195,12 @@
                 </div>
             </div>
         </div>
+         <!--END DG COUNTER-->
 
     </div>
-    <div id="go-top" class="fa fa-arrow-up"></div>
+
+    <!--START DG OUR WORK SLIDER-->
+    
 
      <!--DG SLIDER WORDS-->
     <div class="dg_word">
@@ -207,11 +219,11 @@
             </li>
         </ul>
     </div>
-<!--END DG SLIDER WORDS-->
+    <!--END DG SLIDER WORDS-->
 
 
 
-
+    <!--START BUSINESS LOGO 3D SLIDER-->
     <div class="dg_slider_businesses_logo">
         <div class="dg_slider_businesses_logo_track">
             <!--9 SLIDES-->
@@ -289,7 +301,10 @@
             </div>
         </div>
     </div>
+    <!--END BUSINESS LOGO 3D SLIDER-->
 
+
+    <!--START DG BLOG-->
     <div class="dg_blog1">
         <div class="dg_blog">
             <div id="db_blog_header">
@@ -359,7 +374,10 @@
 
         </div>
     </div>
+     <!--END DG BLOG-->
 
+
+     <!--START DG FOOTER-->
     <hr id="dg_footer_line">
 
     <div class="dg_footer">
@@ -435,10 +453,15 @@
         </div>
 
     </div>
+    <!--START DG FOOTER-->
 
 </div>
 
-
+    <!--START BACK TO TOP BUTTON-->
+    <button id="btn_scrollup">
+       <i class="fa fa-arrow-up"></i class>
+    </button>
+    <!--END BACK TO TOP BUTTON-->
 
 
 
@@ -473,9 +496,16 @@
             // Actual slide
             dynamicSlider.firstElementChild.style.setProperty("margin-left", "-" + curSlide + "00%");
         }, slideDelay);
-    </script>
+    
+        /*Start Back to Top*/
+        const btn_scrollup = document.querySelector('#btn_scrollup');
 
-    <script>
+        btn_scrollup.addEventListener("click", function () {
+            $("html", "body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+
         (function ($, window, document) {
             $.fn.goTop = function (options) {
                 var defaults = {
@@ -501,12 +531,14 @@
             }
         })(jQuery, window, document)
 
-        $('#go-top').goTop({
+        $('#btn_scrollup').goTop({
             scrollTop: 100,
             scrollSpeed: 1000,
             fadeInSpeed: 1000,
             FadeOutSpeed: 500
         })
+
+        /*End Back to Top*/
 
 
 

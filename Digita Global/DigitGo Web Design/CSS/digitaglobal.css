@@ -167,9 +167,9 @@ nav ul li a {
 }
 
 .db_we_do h2 {
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
-  left: 200px;
+  left: 215px;
   top: 0px;
   font-weight: lighter;
 }
@@ -178,8 +178,8 @@ nav ul li a {
   width: 500px;
   border-style: solid;
   position: relative;
-  left: 120px;
-  top: 40px;
+  left: 130px;
+  top: 10px;
   font-weight: lighter;
 }
 
@@ -240,14 +240,14 @@ nav ul li a {
 #box_desc {
   position: relative;
   top: 30px;
-  font-size: 20px;
+  font-size: 22px;
   left: 10px;
 }
 
 #box_desc1 {
   position: relative;
   top: 120px;
-  font-size: 20px;
+  font-size: 22px;
   left: 10px;
 }
 
@@ -344,8 +344,8 @@ a {
 
 .db_banner_txtbox p,
 .db_banner_txtbox_1 p {
-  font-size: 20px;
-  line-height: 18px;
+  font-size: 30px;
+  line-height: 15px;
   margin-top: 80px;
 }
 
@@ -360,16 +360,17 @@ a {
 
 .db_banner_txtbox button,
 .db_banner_txtbox_1 button {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 18px;
   margin-top: 80px;
   border-radius: 15px;
   height: 50px;
-  width: 100px;
+  width: 150px;
   position: relative;
   left: 100px;
   top: -50px;
-  border-color: white;
+  border-color: red;
+  background-color: red;
 }
  
 #dg_banner_img {
@@ -1012,7 +1013,7 @@ a {
 #dg_footer_line {
   position: relative;
   top: 50px;
-  left: 250px;
+  left: -50px;
   width: 1100px;
   border: none;
   height: 2px;
@@ -1021,8 +1022,9 @@ a {
 
 #dg_footer_left {
   position: relative;
-  top: 10px;
-  left: 450px;
+  top: 20px;
+  left: 600px;
+  font-size: 25px;
   color: white;
 }
 
@@ -1033,17 +1035,18 @@ a {
 /*START DG WORD SLIDER*/
 .dg_word{
   position: relative;
-  top: 10px;
+  top: -200px;
+  left: 55px;
 }
 
 .dg_word_slider {
   border-color: #4169E1;
   border-style: solid;
   height: 100px;
-  width: 1700px;
+  width: 2000px;
   position: relative;
-  top: -850px;
-  left: -5px;
+  top: -870px;
+  left: -55px;
   background-color: #4169E1;
 }
 
@@ -1060,8 +1063,8 @@ a {
   width: 45%;
   height: 20%;
   position: relative;
-  top: -890px;
-  left: 905px;
+  top: -993px;
+  left: 810px;
   border: 10px solid transparent;
   z-index: 150;
   overflow: hidden;
@@ -1077,7 +1080,7 @@ a {
   top: -40px;
   display: inline-block;
   overflow: hidden;
-  font-size: 50PX;
+  font-size: 60PX;
   line-height: normal;
   transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1);
   /* Slide css animation */
@@ -1092,26 +1095,28 @@ a {
 /*-----------------------------------------------------------------------------------------*/
 
 /*START DG BACK TO TOP*/
-#go-top {
-  display: none;
-  font-size: 30px;
-  position: fixed;
-  bottom: 250px;
-  right: 0px;
-  border: 2px solid #333;
-  border-radius: 5px;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  cursor: pointer;
-  background-color: rgb(64, 139, 163);
-}
+        #btn_scrollup {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #e62739;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+            color: #ffffff;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
 
-/*END DG BACK TO TOP*/
+        #btn_scrollup:active {
+            background: #cc2333;
+        }
+
+        /*END DG BACK TO TOP*/
 
 /*-----------------------------------------------------------------------------------------*/
-
 
 /*START DG SLIDER FOR BUSINESS LOGO*/
 .dg_slider_businesses_logo {

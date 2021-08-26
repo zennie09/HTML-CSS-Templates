@@ -6,12 +6,11 @@
     <link rel="stylesheet" href="../DigitGo/CSS/our_menu.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  
-    <style>
+    <!--<style>
         *{
             margin:0;
             padding: 0;
             box-sizing:border-box;
-            font-family: sans-serif;
         }
 
         input{
@@ -228,11 +227,12 @@
                 transition: .5s;
         }*/
 
-    </style>
+    </style>-->
 
 </head>
 
 <body>
+     <!--START DG MENU AND BANNER-->
     <div class="wrapper">
         <!--<header>-->
         <div class="gb_section1">
@@ -252,7 +252,8 @@
                 <div class="db_banner_txtbox_1 db_banner_txtbox2">
                     <h1>WE BULID BRANDS</h1>
                     <span></span>
-                    <p>Take your company from the unknown to known. Go Digita. Go Global.</p>
+                    <p>Take your company from the unknown to known. </p>
+                    <p>Go Digita. Go Global.</p>
                     <button>OUR WORK</button>
                 </div>
             </div>
@@ -262,7 +263,8 @@
                 <div class="db_banner_txtbox db_banner_txtbox3">
                     <h1>WE KNOW SOCIAL</h1>
                     <span></span>
-                    <p>We help our clients win with digtal solutions that engage and convert.</p>
+                    <p>We help our clients win with digtal solutions</p>
+                    <p> that engage and convert.</p>
                     <button>OUR WORK</button>
                 </div>
             </div>
@@ -272,7 +274,8 @@
                 <div class="db_banner_txtbox_1 db_banner_txtbox4">
                     <h1>WE ANALYZE YOUR BUSINESS FROM EVERY DIRECTION</h1>
                     <span></span>
-                    <p>We help our clients with the best possible solutions for your business.</p>
+                    <p>We help our clients with the best possible</p>
+                    <p>solutions for your business.</p>
                     <button>OUR WORK</button>
                 </div>
             </div>
@@ -292,7 +295,10 @@
                 </div>
             </nav>
         </div>
+  <!--END DG MENU AND BANNER-->
 
+
+  <!--START GALLERY FOR OUR WORK-->
     <input type="radio" name="Photos" id="check_1" checked>
     <input type="radio" name="Photos" id="check_2">
     <input type="radio" name="Photos" id="check_3">
@@ -393,6 +399,7 @@
 
         </div>
     </div>
+    <!--END GALLERY FOR OUR WORK-->
 
 
     
