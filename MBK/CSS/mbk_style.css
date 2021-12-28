@@ -1,0 +1,1528 @@
+
+
+/*Start Main Page*/
+
+body {
+  overflow-x: hidden;
+}
+  /* Hide horizontal scrollbar */
+
+
+
+.mbk_header{
+  /* border-color: black;
+   border-style: solid;*/
+   background-color: gray;
+   position: relative;
+   right:9px;
+   width:1800px;
+   height: 60px;
+ }
+ 
+.mbk_slideshow{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:500px;
+  position: relative;
+  top:50px;
+  width: auto;
+  left:140px;
+  margin: -10px;
+}
+
+/*Slide show*/
+#slide{
+	width:96%;
+	}
+	
+* {
+	box-sizing: border-box
+}
+
+.mySlides {
+	display: none
+}
+
+
+/* Next & previous buttons */
+.prev{
+	cursor: pointer;
+	position: absolute;
+  left:690px;
+  top:506px;
+	color: #494B55;
+	font-weight: bold;
+	transition: 0.6s ease;
+}
+
+/* Position the "next button" to the right */
+.next {
+  cursor: pointer;
+	position: absolute;
+  left:800px;
+  top:506px;
+	color: #494B55;
+	font-weight: bold;
+	transition: 0.6s ease;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 40px;
+	padding: 8px 12px;
+	position: absolute;
+  left:50px;
+  top:180px;
+	bottom: 8px;
+	width: 100%;
+}
+
+.text1 {
+	color: #f2f2f2;
+	font-size: 40px;
+	padding: 8px 12px;
+	position: absolute;
+  left:800px;
+  top:180px;
+	bottom: 8px;
+	width: 100%;
+}
+
+.text2 {
+	color: black;
+	font-size: 40px;
+	padding: 8px 12px;
+	position: absolute;
+  left:50px;
+  top:180px;
+	bottom: 8px;
+	width: 100%;
+}
+
+.cloths_text{
+  font-size: 20px;
+  position: relative;
+  top:10px;
+  left:60px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  top:70px;
+  left:-7px;
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #494B55;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.pics
+{
+    width:1510px;
+    height: 495px;
+}
+
+
+    /*BUTTONS*/
+.mbk_slideshow_btn{
+    background-color:pink;
+    height:50px;
+    position: absolute;
+    top:250px;
+    left:60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.mbk_slideshow_btn1{
+  background-color:blueviolet;
+  height:50px;
+  position: absolute;
+  top:250px;
+  left:815px;
+  border-radius: 5px;
+  border: none;
+}
+
+.mbk_clothing{
+  /* border-color: black;
+   border-style: solid;*/
+   position: relative;
+   top:100px;
+   height:445px;
+   left:-7px;
+   width:1310px;
+ }
+ 
+ .mbk_clothing1{
+   /*border-color: black;
+   border-style: solid;*/
+   position: relative;
+   top:250px;
+   height:445px;
+   left:-7px;
+   width:1310px;
+ }
+ 
+ .mbk_desc{
+   /*border-color: rgb(223, 59, 59);
+   border-style: solid;*/
+   position: relative;
+   top:350px;
+   left:0px;
+   width:1750px;
+   height:1700px;
+ }
+ 
+
+ #mbk_clothing_header{
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  left: 25px;
+}
+
+#mbk_desc1{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:530px;
+}
+
+#mbk_desc2{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:530px;
+  position: relative;
+  top:30px;
+}
+
+#mbk_desc3{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:530px;
+  position: relative;
+  top:60px;
+}
+
+
+#mbk_desc_p{
+  /*border-color: black;
+  border-style: solid;*/
+  height:230px;
+  width: 800px;
+  font-size: 25px;
+  position: relative;
+  left:50px;
+  top:120px;
+  line-height:2.0;
+}
+
+#mbk_desc_p1{
+  /*border-color: black;
+  border-style: solid;*/
+  height:230px;
+  width: 800px;
+  font-size: 25px;
+  position: relative;
+  top:150px;
+  left:900px;
+}
+
+#mbk_desc_info{
+  /*border-color: black;
+  border-style: solid;*/
+  height:305px;
+  width: 250px;
+  font-size: 23px;
+  position: relative;
+  top:100px;
+  left:200px;
+}
+
+#mbk_desc_img{
+  /*order-color: red;
+  border-style: solid;*/
+  height:500px;
+  width: 800px;
+  position: absolute;
+  left:900px;
+  top:15px;
+}
+
+#mbk_desc_img1{
+  /*border-color: red;
+  border-style: solid;*/
+  height:500px;
+  width: 800px;
+  position: absolute;
+  left:20px;
+  top:10px;
+}
+
+#mbk_desc_img2{
+  /*border-color: red;
+  border-style: solid;*/
+  height:500px;
+  width: 800px;
+  position: absolute;
+  left:900px;
+  top:10px;
+}
+
+#mbk_desc_pic{
+  height:492px;
+  width: 792px;
+}
+
+#mbk_desc_pic1{
+  height:492px;
+  width: 792px;
+}
+
+#mbk_cloths{
+  /*border-color: palegreen;
+  border-style: solid;*/
+  height:450px;
+  width: 1790px;
+}
+
+#mbk_cloths_1{
+  /*border-color: red;
+  border-style: solid;*/
+  width:310px;
+  height:410px;
+  position: relative;
+  left:30px;
+}
+
+#mbk_cloths_2{
+  /*border-color: red;
+  border-style: solid;*/
+  width:310px;
+  height:410px;
+  position: absolute;
+  left:500px;
+  bottom:-15px;
+}
+
+#mbk_cloths_3{
+  /*border-color: red;
+  border-style: solid;*/
+  width:310px;
+  height:410px;
+  position: absolute;
+  left:1000px;
+  bottom:-15px;
+}
+
+#mbk_cloths_4{
+  /*order-color: red;
+  border-style: solid;*/
+  width:310px;
+  height:410px;
+  position: absolute;
+  left:1450px;
+  bottom:-15px;
+}
+
+#cloths{
+  width:300px;
+  height:400px;
+}
+
+/*Eng Main Page*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Start MBK Footer*/
+.mbk_info{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:50px;
+  position: relative;
+  top:400px;
+  left:100px;
+  width:1310px;
+  height:200px;
+}
+
+.mbk_info_1{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:50px;
+  position: relative;
+  top:150px;
+  left:100px;
+  width:1310px;
+  height:200px;
+}
+
+#mbk_links_header{
+ font-size: 30px;
+ font-weight: bold;
+}
+
+#mbk_links{
+  /*border-color: purple;
+  border-style: solid;*/
+ display:inline-block;
+ width:90px;
+ height: 300px;
+ position: relative;
+ top:-15px;
+ left:50px;
+ line-height: 2.0;
+}
+
+#mbk_links a, #accessories_link{
+ text-decoration: none;
+ color: black;
+ font-size: 20px;
+}
+
+#mbk_news{
+ /*border-color: red;
+ border-style: solid;*/
+ position: relative;
+ left:350px;
+ bottom:315px;
+ width:360px;
+ height: 300px;
+ line-height: 2.1;
+}
+
+#mbk_news_p{
+  font-size: 20px;
+}
+
+#mbk_follow_us{
+ /*border-color: red;
+ border-style: solid;*/
+ position: relative;
+ left:900px;
+ top:-615px;
+ width:280px;
+ height: 300px;
+ line-height: 2.1;
+}
+
+#mbk_newletter{
+ /*border-color: red;
+ border-style: solid;*/
+ position: relative;
+ left:1325px;
+ top:-915px;
+ width:280px;
+ height: 300px;
+ line-height: 2;
+}
+
+#mbk_newletter_txtbox{
+ border-radius: 5px;
+ position: relative;
+ top:0px;
+ left:0px;
+ height:35px;
+ width: 275px;
+}
+
+#mbk_newletter_btn{
+ border-radius: 5px;
+ position: relative;
+ top:10px;
+ height:35px;
+}
+
+ /*End MBK Footer*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start MBK Login, Forget Password and Create Account*/
+
+.Mbk_login{
+  /*border-color: purple;
+  border-style: solid;*/
+  border-radius: 5px;
+  height:430px;
+  width:500px;
+  position: relative;
+  top:50px;
+  left:700px;
+}
+
+.Mbk_forget_password{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:240px;
+  width:500px;
+  position: relative;
+  top:50px;
+  left:700px;
+}
+
+.Mbk_sign_in_btn{
+  background-color:red;
+  height:50px;
+  width: 100px;
+  position: absolute;
+  top:250px;
+  left:0px;
+  border-radius: 5px;
+  border: none;
+}
+
+.Mbk_sign_in_btn1{
+  background-color:red;
+  height:50px;
+  width: 100px;
+  position: absolute;
+  top:150px;
+  left:0px;
+  border-radius: 3px;
+  border: none;
+}
+
+.Mbk_create_btn{
+  background-color:red;
+  height:50px;
+  width: 100px;
+  position: absolute;
+  top:360px;
+  left:0px;
+  border-radius: 3px;
+  border: none;
+}
+
+#Mbk_login_title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#Mbk_email_txtbox{
+  position: relative;
+  top:40px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_password_txtbox{
+  position: relative;
+  top:80px;
+  right:0px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_fn_txtbox{
+  position: relative;
+  top:40px;
+  right:0px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_ln_txtbox{
+  position: relative;
+  top:40px;
+  right:0px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_rgpassword_txtbox{
+  position: relative;
+  top:240px;
+  right:0px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_rgemail_txtbox{
+  position: relative;
+  top:80px;
+  width:450px;
+  height:40px;
+  border-radius: 3px;
+}
+
+#Mbk_forget_password{
+  position: relative;
+  top:100px;
+  text-decoration: none;
+}
+
+#Mbk_forget_password a, #Mbk_create_account a, #Mbk_create_account1 a {
+ color: red;
+  text-decoration: none;
+}
+
+#Mbk_create_account{
+  position: relative;
+  top:180px;
+  text-decoration: none;
+}
+
+#Mbk_create_account1{
+  position: relative;
+  top:80px;
+  left:100px;
+  text-decoration: none;
+}
+
+#mbk_return{
+  position: relative;
+  top:40px;
+  left:-100px;
+}
+
+#mbk_return1{
+  position: relative;
+  top:160px;
+  left:-100px;
+}
+
+#Mbk_forget_password_lbl{
+  position: relative;
+  top:20px;
+  font-size: 18px;
+}
+
+/*End MBK Login, Forget Password and Create Account*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start MBK Meun*/
+
+.mbk_meun{
+  /*border-color: red;
+  border-style: solid;*/
+  position: relative;
+  left:-8px;
+  width:1320px;
+  height:150px;
+}
+
+.meun_dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.meun_dropdown_btn {
+
+  border: none;
+  cursor: pointer;
+}
+
+.meun_dropdown_content{
+  display: none;
+  position: absolute;
+  top:50px;
+  left:100px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.meun_dropdown_content1{
+  display: none;
+  position: absolute;
+  top:50px;
+  left:170px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+.meun_dropdown_content1 a, .meun_dropdown_content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.meun_dropdown_content1 a:hover, .meun_dropdown_content a:hover {background-color: #f1f1f1;}
+
+
+
+.meun_dropdown:hover .meun_dropdown_content1, .meun_dropdown:hover .meun_dropdown_content  {
+  display: block;
+}
+
+#mbk_header_label{
+  position: relative;
+  left:25px;
+  top:18px;
+  /*border-color: white;
+  border-style: solid;*/
+  width:400px;
+  color:white;
+  font-size: 18px;
+}
+
+#mbk_header_account
+{
+  position: relative;
+  right:-1220px;
+  top:-12px;
+ /* border-color: white;
+  border-style: solid;*/
+  width:500px;
+  color:white;
+}
+
+#mbk_header_account a
+{
+  text-decoration: none;
+  color:white;
+}
+
+#mbk_header_login{
+  position: relative;
+  left:0px;
+  top:4px;
+  font-size: 20px;
+}
+
+#mbk_header_login1{
+  position: relative;
+  left:10px;
+  top:4px;
+  font-size: 20px;
+}
+
+#mbk_header_login2{
+  position: relative;
+  left:20px;
+  top:4px;
+  font-size: 20px;
+}
+
+#mbk_header_login3{
+  position: relative;
+  left:50px;
+  top:5px;
+  cursor: pointer;
+}
+
+#mbk_header_login4{
+  position: relative;
+  left:50px;
+  top:4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#txtsearch{
+  position: relative;
+  left:80px;
+  top:0px;
+  border-radius: 3px;
+  height: 40px;
+}
+
+#mbk_meun_hr{
+  position: relative;
+  top:30px;
+  left:100px;
+  width:1600px;
+}
+
+#mbk_meun_hr1{
+  position: relative;
+  top:350px;
+  left:-10px;
+  width:1600px;
+}
+
+#mbk_meun_hr2{
+  position: relative;
+  top:130px;
+  left:-10px;
+  width:1600px;
+}
+
+
+
+nav {
+  /*font-family: monospace;*/
+  position: relative;
+  left: 1200px;
+}
+
+ul {
+  
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+#nav_menu_links {
+ color: black;
+  background: white;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  font-size: 20px;
+}
+  
+#nav_menu_links a {
+  color: black;
+}
+
+#nav_menu_links a:hover, #mbk_meun_links_1:hover,
+#nav_menu_links:focus-within {
+  color: red;
+  cursor: pointer;
+}
+
+#nav_menu_links:focus-within a {
+  outline: none;
+}
+
+ul #nav_menu_links ul {
+  background: white;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul #nav_menu_links:hover > ul,
+ul #nav_menu_links:focus-within > ul,
+ul #nav_menu_links ul:hover,
+ul #nav_menu_links ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  z-index:1;
+}
+
+ul #nav_menu_links ul #nav_menu_links {
+  clear: both;
+  width: 100%;
+}
+
+#mbk_meun_down_arrow{
+  position: relative;
+  left:0px;
+  top:5px;
+}
+
+#mbk_meun_links_1{
+  position: relative;
+  left:0px;
+  top:-2px;
+  text-decoration: none;
+  color:black;
+}
+
+
+#mbk_meun_logo{
+  position: relative;
+  left:100px;
+  top:40px;
+}
+
+
+
+/*End MBK Meun*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start MBK Accessories*/
+.Mbk_Accessories{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:2650px;
+  width:1650px;
+  position: relative;
+  top:70px;
+  left: 70px;
+}
+
+
+.Mbk_Accessories_1{
+  /*border-color: purple;
+  border-style: solid;*/
+  height:2100px;
+  width:1650px;
+  position: relative;
+  top:70px;
+  left: 70px;
+}
+
+#Mbk_Accessories_nav{
+  font-size: 20px;
+  position: relative;
+  top:10px;
+  left:25px;
+}
+
+
+#Mbk_Accessories_Title{
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top:-20px;
+  left:750px;
+}
+
+
+
+#accessories_desc{
+  position: relative;
+  right:5px;
+}
+
+#accessories_item{
+  /*border-color: black;
+  border-style: solid;*/
+  width:320px;
+  position: relative;
+  right:0px;
+}
+
+
+#accessories_desc1{
+  position: relative;
+  right:5px;
+  top: -20px;
+}
+
+#accessories_item1{
+  /*border-color: black;
+  border-style: solid;*/
+  width:370px;
+  position: relative;
+  right:0px;
+  top: -22px;
+}
+
+
+
+#accessories_sales_price{
+  position: relative;
+  left:80px;
+  top:-43px;
+  font-weight: bold;
+}
+
+#accessories_desc1{
+  position: relative;
+  right:0px;
+}
+
+#accessories_item1{
+  /*border-color: black;
+  border-style: solid;*/
+  width:250px;
+  position: relative;
+  right:0px;
+}
+
+
+#accessories_link:hover{
+  opacity: 0.7;
+}
+
+#circle {
+  background: #f00;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  left:250px;
+  top:-610px;
+}
+
+#circle1 {
+  background: #f00;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  left:250px;
+  top:-610px;
+}
+
+#circle2 {
+  background: #f00;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  left:250px;
+  top:-580px;
+}
+
+#sales_lbl{
+  position: relative;
+  font-weight: bold;
+  font-size:18px;
+  color:white;
+  position: relative;
+  top:25px;
+  left:10px;
+}
+
+
+
+#Mbk_Accessories_image_desc{
+  /*border-color: pink;
+  border-style: solid;*/
+  height:1400px;
+  width:800px;
+  position: relative;
+  left:840px;
+  top:-1300px;
+}
+  
+
+#Mbk_Accessories_image_desc_title{
+  font-size: 25px;
+  position: relative;
+  left:15px;
+  padding-bottom: 5px;
+}
+
+#Mbk_Accessories_image_desc_title1{
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  left:15px;
+  padding-bottom: 20px;
+}
+
+#Mbk_Accessories_image_desc_price{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  left:15px;
+  color:red;
+  padding-bottom: 20px;
+  
+}
+
+#Mbk_Accessories_image_desc_quantity{
+  font-size: 20px;
+  position: relative;
+  left:15px;
+}
+
+#Mbk_Accessories_image_desc_quantity_txtbox{
+  font-size: 20px;
+  position: relative;
+  right:72px;
+  top:40px;
+  width:200px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+
+#Mbk_Accessories_image_desc_size{
+  font-size: 20px;
+  position: relative;
+  left:400px;
+  top:-40px;
+}
+
+#Mbk_Accessories_image_desc_size_txtbox{
+  font-size: 20px;
+  position: relative;
+  right:40px;
+  top:40px;
+  width:50px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+#Mbk_Accessories_image_desc_btns{
+  position: relative;
+  left:18px;
+  top:20px;
+  
+}
+
+.Mbk_Accessories_image_desc_add_to_car_btn{
+  background-color:white;
+  height:50px;
+  width:300px;
+  position: absolute;
+  top:50px;
+  left:0px;
+  border-radius: 3px;
+  /*border-style: solid;
+  border-color: red;*/
+  color:red;
+ 
+}
+
+.Mbk_Accessories_image_desc_buy_it_now_btn{
+  background-color:red;
+  height:50px;
+  width:300px;
+  position: absolute;
+  top:110px;
+  left:0px;
+  border-radius: 3px;
+  /*border-style: solid;
+  border-color: red;*/
+  color:white;
+}
+
+#Mbk_Accessories_image_desc_info{
+  /*border-color: rgb(70, 66, 66);
+  border-style: solid;*/
+  height:800px;
+  width:790px;
+  position: relative;
+  top:-2300px;
+  left:845px;
+}
+
+#Mbk_Accessories_image_desc_info_line{
+  width:550px;
+  border: 1px solid rgb(74, 82, 74);
+}
+
+#Mbk_Accessories_image_desc_info_line1{
+  width:550px;
+  position: relative;
+  top:50px;
+  border: 1px solid rgb(74, 82, 74);
+}
+
+
+.vl {
+  border-left: 1px solid rgb(74, 82, 74);
+  height: 61px;
+  position: absolute;
+  left: 40%;
+  margin-left: -3px;
+  top: 2px;
+}
+
+#Mbk_Accessories_image_desc_info_links {
+  position: relative;
+  padding-left: 50px;
+}
+
+#desc_info_links{
+  padding-left: 80px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+#show{
+  position: relative;
+  left:70px;
+  width:150px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+#hide{
+  position: relative;
+  left:150px;
+  width:150px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+#desc_info_links_desc{
+  /*border-style: solid;
+  border-color: red;*/
+  width: 780px;
+  height: 713px;
+  position: relative;
+  top: 30px;
+}
+
+#desc_info_links_desc1{
+  /*border-style: solid;
+  border-color: red;*/
+  width: 780px;
+  height: 713px;
+  position: relative;
+  top: 30px;
+}
+
+#desc_info_links_desc1_p, #desc_info_links_desc1_b{
+  font-size: 20px;
+}
+
+#desc_info_links_italic{
+  font-size:20px;
+}
+
+#desc_info_links_desc_1{
+  position: relative;
+  top: 20px;
+   font-size:20px;
+}
+
+#desc_info_links_ul{
+  position: relative;
+  top: 20px;
+  list-style: circle;
+}
+
+#desc_info_links_ul li{
+line-height: 55px;
+font-size: 20px;
+
+}
+
+#desc_info_important{
+  width:500px;
+  height: 500px;
+  border-color: black;
+  border-style: solid;
+  position: relative;
+  top:200px;
+  left:-200px;
+  font-size: 20px;
+}
+
+.container {
+  width: 800px;
+  height: 1100px;
+  margin: 0 auto;
+  display: flex;
+  /*border-style: solid;
+  border-color: red;*/
+  position: relative;
+  left:-400px;
+}
+
+
+#Mbk_Accessories_image{
+  /*border-color: blue;
+  border-style: solid;*/
+  height:700px;
+  width:750px; 
+  position: relative;
+  left:0px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+#Mbk_Accessories_image_01{
+  position: relative;
+  top: 20px;
+  left: 30px;
+  width: 310px;
+  height: 410px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+#Mbk_Accessories_image_02{
+  position: relative;
+  top: 20px;
+  left: 25px;
+  width: 310px;
+  height: 410px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+#Mbk_Accessories_image_03{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 310px;
+  height: 410px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+
+#Mbk_Accessories_image_04{
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 310px;
+  height: 410px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+
+#Mbk_Accessories_image1{
+  position: relative;
+  top: -300px;
+  left: 30px;
+  width: 150px;
+  height: 200px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+#Mbk_Accessories_image2{
+  position: relative;
+  top: -300px;
+  left: -185px;
+  width: 150px;
+  height: 200px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+#Mbk_Accessories_image3{
+  position: relative;
+  top: -300px;
+  left: -400px;
+  width: 150px;
+  height: 200px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+#Mbk_Accessories_image4{
+  position: relative;
+  top: -300px;
+  left: -620px;
+  width: 150px;
+  height: 200px;
+  /*border-color: black;
+  border-style: solid;*/
+}
+
+#accessories_img_0{
+  width: 300px;
+  height:400px;
+  cursor: pointer;
+}
+
+#accessories_img_1{
+  width: 300px;
+  height:400px;
+  cursor: pointer;
+  position: relative;
+  top:-20px;
+}
+
+
+#accessories_img{
+  width: 140px;
+  height: 190px;
+  cursor: pointer;
+}
+
+
+#accessories_imgs{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top:0px;
+}
+
+#share_it_icons{
+  /*border-color: black;
+  border-style: solid;*/
+  width:780px;
+  height: 150px;
+  position: relative;
+  top:50px;
+}
+
+#share_it{
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#share_it_btn{
+  position: relative;
+  top:60px;
+  width: 150px;
+  height: 50px;
+  right:200px;
+}
+
+#share_it_img{
+  width:45px;
+  height: 45px;
+  position: relative;
+  left:-20px;
+}
+
+#share_it_img_lbl{
+  position: relative;
+  top:-15px;
+  font-size: 20px;
+}
+
+#Mbk_Accessories_images{
+  width:1500px;
+  height: 600px;
+  /*border-color: black;
+  border-style: solid;*/
+  position: relative;
+  bottom:2080px;
+  left:70px;
+}
+.image {
+  width: 750px;
+  height: 700px;
+}
+
+.normal-zoom {
+  transform: scale(1);
+  cursor: zoom-in;
+  transition: transform 250ms;
+}
+
+.zoom-in {
+  transform: scale(1.6);
+  cursor: zoom-out;
+  transition: transform 250ms;
+}
+/*End MBK Accessories*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start MBK Cart*/
+.mbk_cart{
+  /*border-style: solid;
+  border-color: black;*/
+  width: 1590px;
+  height: 250px;
+  position: relative;
+  top:70px;
+  left: 100px;
+}
+
+#mbk_cart_header{
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  left:30px;
+  top:30px;
+}
+
+#mbk_cart_lbl{
+  font-size: 25px;
+  position: relative;
+  right:145px;
+  top:100px;
+}
+
+#mbk_cart_lbl1{
+  font-size: 25px;
+  position: relative;
+  left:-430px;
+  top:170px;
+}
+
+
+/*End MBK Cart*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+a:hover , #mbk_links a:hover, #hide:hover, #show:hover{
+  color: red;
+  
+}
+
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px 2em;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 2em;
+}
+
+.box :first-child,  .box1 :first-child{
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
