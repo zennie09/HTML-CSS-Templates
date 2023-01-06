@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>TRÉMONT</title>
+        <link rel="stylesheet" href="../SCSS/style.css">
+    </head>
+
+    <body>
+        <div class="tremont_header">
+            <div id="tremont_logo">
+                <a href="../HTML/tremont.html">TRÉMONT</a>
+            </div>
+            <div id="tremont_menu">
+                <a href="#">Order Now</a>
+                <a href="../HTML/tremont.html">Home</a>
+                <a href="../HTML/gallery-tremont.html">Gallery</a>
+                <a href="../HTML/story-tremont.html">Story</a>
+                <a href="../HTML/visit-tremont.html">Visit</a>
+            </div>
+        </div>
+        <div class="tremont_body">
+            <div id="tremont_address">
+                123 Fake Street — Seattle, WA — 206-555-7890
+            </div>
+            <div id="tremont_eat_drink_visit">
+                <ul>
+                    <li data-bg="../Image/Stocksy_comp_461841-color.jpg"><a href="../HTML/eat-tremont.html">EAT</a></li>
+                    <li data-bg="../Image/Stocksy_comp_486556.jpg"><a href="../HTML/drink-tremont.html">DRINK</a></li>
+                    <li data-bg="../Image/Stocksy_comp_821143-crop.jpg"><a href="../HTML/visit-tremont.html">VISIT</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            const body = document.querySelector("body");
+            const li = document.querySelectorAll("li");
+
+            li.forEach(el =>{
+                el.addEventListener("mouseover", () => {
+                    let bg = el.getAttribute("data-bg");
+                    body.style.background = `url(${bg}) no-repeat center /cover`;
+                });
+            });
+        </script>
+
+
+    </body>
+
+</html>    
